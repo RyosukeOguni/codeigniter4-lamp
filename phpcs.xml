@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ruleset name="Custom Standard">
+    <description>A custom config standard</description>
+
+    <file>./app</file>
+    <exclude-pattern>./app/Views/*</exclude-pattern>
+    <exclude-pattern>./app/Config/Boot/*</exclude-pattern>
+    <exclude-pattern>./app/Config/DocTypes.php</exclude-pattern>
+    <exclude-pattern>./app/Config/Mimes.php</exclude-pattern>
+    <file>./tests</file>
+    <rule ref="PSR12"/>
+</ruleset>

@@ -1,0 +1,4 @@
+localhost
+*.localhost
+codeigniter.example.com
+*.codeigniter.example.com

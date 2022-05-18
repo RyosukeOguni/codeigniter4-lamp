@@ -1,0 +1,6 @@
+# docker
+/.dockerignore
+/Dockerfile
+
+# target domains for certificate
+/hostnames.txt
