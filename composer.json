@@ -46,7 +46,7 @@
         "test": "phpunit",
         "coverage": "XDEBUG_MODE=coverage phpunit",
         "phinx": "cd phinx && phinx",
-        "db:migrate": "phinx migrate",
+        "db:migrate": "cd phinx && phinx migrate",
         "lint:phpcs": "phpcbf",
         "lint:phpmd": "phpmd app,tests text phpmd.xml",
         "lint:php-cs-fixer": "php-cs-fixer fix --diff",
